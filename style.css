@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+ul {
+    list-style : none;
+ }
+ body{
+     margin: 0;
+     padding: 0;
+     height: 100vh;
+     font-family: 'Roboto', sans-serif;
+}
+ li a {
+     color:bisque;
+    padding: 15px;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 10cm;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+  }
+  li a:hover {
+    background-color: #555;
+    color:white;
+  }
+  .header{
+      display: flex;
+    /*padding-left: 1000px;*/
+    /*justify-content: right;*/
+    /*float: right;*/
+  }
+  .nav{
+      display: flex;
+      background-color: #2C2E43;
+      padding-bottom: 10px; 
+  }
+  .links{
+    position: absolute;
+    right: 10px;
+    padding-top: 10px;
+  }
+  .image{
+      padding-left: 20px;
+      padding-top: 5px;
+  }
+  h1{
+      font-size: 60px;
+      line-height: 1.5;
+      text-align: center;
+      margin-top: 0;
+      padding: 40px;
+      color: bisque;
+  }
+  p{
+      text-align: center;
+      line-height: 2;
+      font-size: 20px;
+      color: burlywood;
+      padding-bottom: 2.5rem;
+  }
+  .mid-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #595260;
+      padding-left: 20px;
+      padding-right: 20px;
+ }
+ h2{
+     text-align:center ;
+     font-size: 30px;
+     color: gray;
+     padding-bottom: 50px;
+ }
+ .btn{
+     padding: 20px;
+     font-size: 20px;
+     border-radius: 20px;
+     background-color:bisque;
+     border:0;
+     /*position: relative;
+     left:35rem;
+     bottom:38rem;*/
+     color:#595260 ;
+     font-weight: bolder;
+     
+ }
+ .btn a{
+         text-decoration: none;
+         color:#595260 ;
+ }
+ .btn:hover{
+     background-color: burlywood;
+     font-size: 23px;
+     transition: 0.5s;
+ }
+ .size{
+    /* padding: 120px;
+    padding-left: 8rem;
+    position: relative;
+    top:80px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+ }
+ .footer{
+     background-color: #2C2E43;
+     color: burlywood;
+    /*width: 100%;*/
+     /*margin: 0;*/
+     padding-top: 65px;
+     text-align: center;
+ }
+ .icons{
+     color:burlywood;
+     padding-left: 20px;
+     padding-right: 20px;
+ }
+ .but{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ .para{
+     font-size: 30px;
+ }
